@@ -4,7 +4,7 @@ de test
 
 I've had a bit of time issue, tried to go the API route but it was taking too much time and resorted to one file answer (main.py)
 
-i've used postgtres as the db 
+i've used postgtres as the db (config yaml whould have held the credentials, did not implement) 
 
 the current solution reads from the file, and create a website table for each site as well as a tracking table so we know when the site was last tracked.
 it only updates table if last_tracked most recent timestamp is more the 30 mn away. 
